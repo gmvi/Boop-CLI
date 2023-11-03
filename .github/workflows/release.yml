@@ -17,7 +17,7 @@ jobs:
         with:
           submodules: "recursive"
       - name: Install rust
-        uses: hecrj/setup-rust-action@v1
+        uses: hecrj/setup-rust-action@v2
         with:
           rust-version: 1.51.0
       # cache cargo
@@ -91,7 +91,7 @@ jobs:
         with:
           submodules: "recursive"
       - name: Install rust
-        uses: hecrj/setup-rust-action@v1
+        uses: hecrj/setup-rust-action@v2
         with:
           rust-version: 1.51.0
       # cache cargo

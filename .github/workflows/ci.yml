@@ -19,7 +19,7 @@ jobs:
         with:
           submodules: "recursive"
       - name: Install rust
-        uses: hecrj/setup-rust-action@v1
+        uses: hecrj/setup-rust-action@v2
         with:
           components: clippy, rustfmt
           rust-version: 1.51.0
