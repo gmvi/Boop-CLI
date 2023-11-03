@@ -49,7 +49,7 @@ env_logger = "0.8.3"
 fuse-rust = "0.2.0"
 # File system
 open = "1.7.0"
-xdg = "2.2.0"
+xdg = "2.5.2"
 notify = "5.0.0-pre.6"
 config = "0.9"
 # Misc utils
