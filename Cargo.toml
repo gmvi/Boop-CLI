@@ -27,7 +27,7 @@ lto = "off"
 
 [dependencies]
 # GTK
-glib = "0.10"
+glib = "0.16"
 gdk = "0.13"
 gdk-pixbuf = "0.9"
 pango = "0.9"
